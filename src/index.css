@@ -10,7 +10,7 @@ header > h3 {
     margin: 0;
 }
 
-#account-actions {
+#actions {
     display: block;
     margin-left: auto;
     margin-right: 0;
@@ -27,6 +27,52 @@ a {
 a:focus {
     outline:none;
 }
+
+.main {
+    display: flex;
+    max-width: 85%;
+    margin: 0 auto;
+}
+
+.categories {
+    /* background-color: rgb(95, 32, 32); */
+    width: 20%;
+    padding: 0 3%;
+}
+
+.category {
+    display: flex;
+}
+
+.category > hr {
+    width: 10px;
+    margin-right: 5%;
+    border: none;
+}
+
+/* Set colors for the categories hr tags */
+#open-source > hr {
+    background-color: tan;
+}
+
+#linux > hr{
+    background-color: lightblue;
+}
+
+#gaming > hr {
+    background-color: lightcoral;
+}
+
+.posts {
+    /* background-color: #000; */
+    width: 80%;
+    padding: 0 3%;
+}
+
+.headings {
+    max-width: 95%;
+}
+
 
 footer > p {
     text-align: center;
