@@ -1,0 +1,74 @@
+html {
+    background-color: #1d1d1d;
+}
+
+header {
+    display: flex;
+}
+
+header > h3 {
+    margin: 0;
+}
+
+#actions {
+    display: block;
+    margin-left: auto;
+    margin-right: 0;
+}
+
+body {
+    color: #fff;
+    font-family: sans-serif, Tahoma, 'Times New Roman';
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+a:focus {
+    outline:none;
+}
+
+button {
+    border: none;
+    background-color: rgb(15, 15, 15);
+    padding: 0 15px;
+    font-size: 16px;
+    color: white;
+}
+.main {
+    display: flex;
+    max-width: 85%;
+    margin: 0 auto;
+}
+
+.main > div > hr {
+    border: none;
+    background-color: gray;
+    height: 3px;
+}
+
+/* CSS for the registering */
+.register {
+    width: 50%;
+    padding: 0 3%;
+}
+
+/* CSS for log in*/
+
+.login {
+    width: 50%;
+    padding: 0 3%;
+}
+
+.post {
+    display: flex;
+    flex-wrap: wrap;
+    max-height: 5%;
+}
+
+
+.headings {
+    max-width: 95%;
+}
