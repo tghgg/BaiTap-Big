@@ -16,6 +16,11 @@ header > h3 {
     margin-right: 0;
 }
 
+#actions > input {
+    padding: 0;
+    border: none;
+}
+
 body {
     color: #fff;
     font-family: sans-serif, Tahoma, 'Times New Roman';

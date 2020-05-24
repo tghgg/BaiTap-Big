@@ -10,6 +10,11 @@ header > h3 {
     margin: 0;
 }
 
+#actions > input {
+    padding: 0;
+    border: none;
+}
+
 #actions {
     display: block;
     margin-left: auto;
@@ -146,4 +151,5 @@ button {
 footer > p {
     text-align: center;
     font-size:12px;
+    margin: 0;
 }
