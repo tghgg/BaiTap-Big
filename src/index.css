@@ -34,6 +34,12 @@ a:focus {
     margin: 0 auto;
 }
 
+.main > div > hr {
+    border: none;
+    background-color: gray;
+    height: 3px;
+}
+
 .categories {
     /* background-color: rgb(95, 32, 32); */
     width: 20%;
@@ -63,11 +69,40 @@ a:focus {
     background-color: lightcoral;
 }
 
-.posts {
+.latest {
     /* background-color: #000; */
     width: 80%;
     padding: 0 3%;
 }
+
+.post {
+    display: flex;
+    flex-wrap: wrap;
+    max-height: 5%;
+}
+
+.post > hr {
+    width: 99%;
+}
+
+.post > div > h4 {
+    margin: 0;
+}
+
+.post > div > p {
+    margin: 0;
+}
+
+.post > img {
+    border-radius: 50%;
+    max-width: 100%;
+    padding-right: 10px;
+}
+
+.post > .info {
+    margin-left: auto;
+}
+
 
 .headings {
     max-width: 95%;
